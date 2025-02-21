@@ -18,7 +18,7 @@ export default defineConfig({
     base: `${siteslug}/`,
 
     head: [
-        ["link", { rel: "icon", href: `${siteslug}/asfp.svg` }]
+        ["link", { rel: "icon", href: `${siteslug}/icons/asfp.svg` }]
     ],
 
     markdown: {
@@ -35,7 +35,7 @@ export default defineConfig({
 
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        logo: "/asfp.svg",
+        logo: "/icons/asfp.svg",
 
         nav: topbar,
 
@@ -50,7 +50,7 @@ export default defineConfig({
         lastUpdated: {
             formatOptions: {
                 dateStyle: "short",
-                timeStyle: "short"
+                timeStyle: undefined
             }
         },
 
